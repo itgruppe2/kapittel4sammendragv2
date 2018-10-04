@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <p>
+    <h1> IP (Internettprotokollen) </h1>
+    Internettprotokollen, IP (eng. Internet Protocol)
+    tar seg av kommunikasjon mellom maskiner. <br>
+    Alle maskiner som er koblet til Internett, har en unik IP-adresse.
+    En IP-adresse består vanligvis av fire tall adskilt med punktum, <br>
+    for eksempel 192.168.1.1.
+    Når en tjener sender pakker til en klient,
+    vil pakkene inneholde IP-adressene til både tjeneren og klienten. <br>
+    Det er disse adressene som benyttes for at pakkene skal finne fram.
+    Når vi åpner en nettside, <br>
+    pleier vi ikke å skrive inn IP-adressen til tjeneren direkte.
+    Vi bruker i stedet tjenerens domenenavn. <br>
+    Et domenenavn er et unikt navn som hører til en IP-adresse.
+    Domenenavnet www.aschehoug.no er et eksempel på dette. <br>
+    Når vi skriver et domenenavn i nettleseren vår,
+    blir dette slått opp ved hjelp av en domenenavntjener <br>
+    (DNS-tjener, eng. «Domain Name System server»).
+    Denne tjeneren finner IP-adressen til www.aschehoug.no <br>
+    slik at vi kan opprette en tilkobling til tjeneren.
+    Domenenavntjenere er altså egne tjenere <br>
+    som holder styr på domenenavn og IP-adresser.
+    Dette gjør at vi slipper å huske rekker av tall. <br>
+
+    <h2> Localhost </h2>
+    Når vi skal utvikle nettsider i denne boka,
+    kommer vi til å gjøre det på vår egen datamaskin (også kalt «localhost»). <br>
+    Dette fører til at maskinen vil fungere både som klient og som tjener.
+    Databasene vi skal lage, og mye av koden vi skal skrive, <br>
+    krever bruk av en tjener.
+    Ved å benytte programmet WampServer («Windows Apache MySQL PHP»), <br>
+    kan vi sette opp en tjener på vår egen maskin.
+    Denne tjeneren benytter domenenavnet «localhost» eller IP-adressen 127.0.0.1. <br>
+    Denne IP-adressen peker alltid til egen maskin,
+    og «localhost» har alltid IP-adressen 127.0.0.1. <br>
+    Det finnes et tilsvarende program for Mac-brukere (MAMP).
+    Alternativt kan et web-hotell benyttes. <br>
+    Ved å kjøpe et web-hotell får vi tilgang til lagringsplass
+    og ulike tjenester på en ekstern tjener.
+  </p>
+</body>
+</html>
